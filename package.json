@@ -5,6 +5,11 @@
   "type": "module",
   "scripts": {
     "test": "npx playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:sanity": "playwright test --grep @sanity",
+    "test:regression": "playwright test --grep @regression",
+    "test:critical": "playwright test --grep @critical",
+    "test:no-flaky": "playwright test --grep-invert @flaky",
     "test:prod": "npx playwright test --config playwright.config.prod.ts",
     "test:stage": "npx playwright test --config playwright.config.stage.ts",
     "test:qa": "npx playwright test --config playwright.config.qa.ts",
