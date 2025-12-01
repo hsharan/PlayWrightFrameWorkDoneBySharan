@@ -1,0 +1,6 @@
+Filled text : qa@nal.com into element : locator('#input-email')
+Filled text : test@123 into element : locator('#input-password')
+Clicked on element : //input[@type='submit']
+This is the search item key : macbook
+Filled text : macbook into element : locator('.form-control.input-lg')
+Clicked on element : locator('//i[@class=\'fa fa-search\']')

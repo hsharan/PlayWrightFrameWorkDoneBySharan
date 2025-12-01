@@ -1,0 +1,4 @@
+Filled text : 2sshagargi@gmail.com into element : locator('#input-email')
+Filled text : 2test@123 into element : locator('#input-password')
+Clicked on element : //input[@type='submit']
+Invalid login error message :  Warning: No match for E-Mail Address and/or Password.

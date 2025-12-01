@@ -1,0 +1,11 @@
+Filled text : prod@nal.com into element : locator('#input-email')
+Filled text : test@123 into element : locator('#input-password')
+Clicked on element : //input[@type='submit']
+This is the search item key : samsung
+Filled text : samsung into element : locator('.form-control.input-lg')
+Clicked on element : locator('//i[@class=\'fa fa-search\']')
+========= Product Name =========: Samsung Galaxy Tab 10.1
+Clicked on element : getByRole('link', { name: 'Samsung Galaxy Tab 10.1' })
+waited for element to be visible 
+product header: Samsung Galaxy Tab 10.1
+Total number of images for Samsung Galaxy Tab 10.1 ==> 7

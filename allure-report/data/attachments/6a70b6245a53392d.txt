@@ -1,0 +1,21 @@
+Filled text : qa@nal.com into element : locator('#input-email')
+Filled text : test@123 into element : locator('#input-password')
+Clicked on element : //input[@type='submit']
+This is the search item key : macbook
+Filled text : macbook into element : locator('.form-control.input-lg')
+Clicked on element : locator('//i[@class=\'fa fa-search\']')
+========= Product Name =========: MacBook Pro
+Clicked on element : getByRole('link', { name: 'MacBook Pro' })
+product header: MacBook Pro
+waited for element to be visible 
+product header: MacBook Pro
+Total number of images for MacBook Pro ==> 4
+Full product details for product : Brand: Apple,Product Code: Product 18,Reward Points: 800,Availability: Out Of Stock
+header MacBook Pro
+imagecount 4
+Brand Apple
+Product Code Product 18
+Reward Points 800
+Availability Out Of Stock
+price $2,000.00
+Extra tax price $2,000.00

@@ -1,0 +1,9 @@
+Filled text : sshagargi@gmail.com into element : locator('#input-email')
+Filled text : test@123 into element : locator('#input-password')
+Clicked on element : //input[@type='submit']
+This is the search item key : macbook
+Filled text : macbook into element : locator('.form-control.input-lg')
+Clicked on element : locator('//i[@class=\'fa fa-search\']')
+========= Product Name =========: MacBook Pro
+Clicked on element : getByRole('link', { name: 'MacBook Pro' })
+product header: MacBook Pro
